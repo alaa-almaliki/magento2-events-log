@@ -1,0 +1,24 @@
+{
+    "name": "alaa/magento2-events-log",
+    "description": "Magento Events Log",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": ["magento2", "events log", "magento events log", "observer events log"],
+    "authors": [
+        {
+            "name": "Alaa Al-Maliki",
+            "email": "alaa.almaliki@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Alaa\\Eventslog\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
