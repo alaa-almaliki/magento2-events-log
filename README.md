@@ -11,7 +11,7 @@ composer require --dev alaa/magento2-events-log
 
 ### To log events execute the below commands
 ```shell
-php bin/magento alaa:events:log [area optional i.e gloabl] 
+php bin/magento alaa:events:log [area optional i.e global] 
 ```
 
 ### Events areas
@@ -23,7 +23,7 @@ php bin/magento alaa:events:log [area optional i.e gloabl]
  - graphql
 
 ### Note
-Since some events are not actually used in the events.xml file, the events logged don't wholly include all events.
+Since some events are not actually used in the events.xml files, the events logged don't wholly include all events.
 For example event `customer_save_after` is not used by Magento vanilla in any file, and so it is not logged when you run the command `php bin/magento alaa:events:log`.
 
 ### Events logged in Magento 2.4.1
