@@ -1,6 +1,6 @@
 # Magento 2 Events Log
 
-Log events into `var/log/events.log` to debug and have more visibility on the observer events.
+Log events into `var/log/events.txt` to debug and have more visibility on the observer events.
 
 ### Installation
 Install by composers or just download
