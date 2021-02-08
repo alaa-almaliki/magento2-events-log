@@ -81,6 +81,11 @@ class LogCommand extends Command
             $events[] = array_keys($data);
         }
 
-        $this->fileAdapter->write('var/log/events.txt', implode(PHP_EOL, $this->arrayUtils->flatten($events)));
+        if (!empty($events)) {
+            $this->fileAdapter->write(
+                'var/log/events.txt',
+                implode(PHP_EOL, $this->arrayUtils->flatten($events))
+            );
+        }
     }
 }
